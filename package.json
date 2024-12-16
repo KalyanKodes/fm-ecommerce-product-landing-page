@@ -2,15 +2,19 @@
   "name": "ecomerce-landing-page",
   "version": "1.0.0",
   "main": "index.js",
+  "homepage": "https://github.io/kalyankodes/fm-ecommerce-product-landing-page",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve"
+    "start": "webpack serve",
+      "predeploy": "npm run build",
+   "deploy": "gh-pages -d build"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "dependencies": {
+    "gh-pages": "^6.2.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
