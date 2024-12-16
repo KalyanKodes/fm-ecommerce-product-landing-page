@@ -18,3 +18,19 @@
   box-sizing: border-box;
   font-family: "Kumbh Sans", sans-serif;
 }
+
+@media (min-width: 800px){
+    .thumbnails-outer-wrapper{
+        display: flex;
+    }
+    .total-product-wrapper{
+        flex-direction: row;
+        /* gap: 100px; */
+        justify-content: center;
+        align-items: center;
+        height: 80vh;
+        gap: 100px;
+        /* margin: auto; */
+        padding: 100px;
+    }
+}
