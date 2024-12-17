@@ -8,7 +8,7 @@ export default function ProductDetails() {
             <p className='product-description'>These low profile sneakers are perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
             <div className="product-price-wrapper">
                 <h1 className='product-price'>$125.00 <span>50%</span></h1>
-                <p>$250.00</p>
+                <p style={{ textDecoration: 'line-through', color: 'var(--dark-grayish-blue)', fontWeight: 700 }}>$250.00</p>
             </div>
             <div className="product-cart-items-wrapper">
                 <p className='product-cart-items-counter'>

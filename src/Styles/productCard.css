@@ -21,6 +21,8 @@
     gap: 5px;
     overflow: hidden;
     position: relative;    
+    left: 0;
+    /* transform: translateX(-50px); */
 }
 
 .images-inner-wrapper svg{
@@ -36,6 +38,8 @@
     position: absolute;
     transition: .4s;
 }
+
+
 
 
 
@@ -58,6 +62,11 @@
 .thumbnails-outer-wrapper img{
     width: 80px;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.desktop-image{
+    display: none;
 }
 
 .product-details-wrapper{
@@ -72,6 +81,7 @@
     font-size: 30px;
     font-weight: 800;
 }
+
 
 .product-description{
     color: var(  --dark-grayish-blue);
@@ -145,5 +155,11 @@
         flex-basis: 500px;
         /* background-color: yellow; */
         /* margin: auto; */
+    }
+    .slide-images{
+        display: none;
+    }
+    .desktop-image{
+        display: block;
     }
 }
