@@ -29,7 +29,11 @@
     position: absolute;
     top: 50%;
     z-index: 23;
+    cursor: pointer;
 }
+
+
+
 
 .images-inner-wrapper img{
     width: 100%;
@@ -37,6 +41,7 @@
     object-fit: cover;
     position: absolute;
     transition: .4s;
+    cursor: pointer;
 }
 
 
@@ -141,6 +146,7 @@
     font-weight: 700;
     border-radius: 10px;
     font-size: 18px;
+    cursor: pointer;
 }
 
 
